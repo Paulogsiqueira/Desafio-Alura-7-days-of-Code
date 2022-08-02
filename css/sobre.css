@@ -1,0 +1,30 @@
+.sobre__texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5em 6em;
+}
+
+.sobre__nos{
+    color: var(--vinho);
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom:1.5em ;
+
+}
+
+.sobre__titulo{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    padding-bottom: .5em;
+}
+
+.sobre__descricao{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--cinza-claro)
+
+}

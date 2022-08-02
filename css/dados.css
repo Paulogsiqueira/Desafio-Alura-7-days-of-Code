@@ -1,0 +1,31 @@
+.dados{
+    display: flex;
+    padding:0 2em;
+    margin-top: 2em;
+    margin-bottom: 5em;
+    justify-content: center;
+}
+
+.dados__projetos{
+    width:280px;
+    text-align: start;
+    margin: 0 25px;
+}
+
+.dados__titulo{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vinho);
+    margin-bottom: 15px;
+}
+
+.dados__subtitulo{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--letra-padrao);;
+}
+
+.dados__descricao{
+    color: var(--cinza-claro);
+    font-size: 16px;
+}

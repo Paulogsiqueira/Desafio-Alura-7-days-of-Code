@@ -1,0 +1,28 @@
+@import url('/css/cabecalho.css');
+@import url('/css/sobre.css');
+@import url('/css/dados.css');
+@import url('/css/procura.css');
+@import url('/css/vagas.css');
+@import url('/css/opiniao.css');
+@import url('/css/rodape.css');
+
+
+:root{
+    --cinza-escuro: #3A404E;
+    --cinza-claro: #667085;
+    --vinho: #8E2424;
+    --letra-padrao:'Inter', sans-serif;;
+}
+
+body{
+    font-family: var(--letra-padrao);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+
+
+
+

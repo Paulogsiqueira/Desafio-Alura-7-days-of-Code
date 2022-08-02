@@ -1,0 +1,36 @@
+.procura{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.procura__vagas{
+    font-size: 14px;
+    color: var(--vinho);
+    font-weight: 500;
+    padding: .5em 1.5em;
+    border-radius: 20px;
+    background-color:rgba(142, 36, 36, 0.05);
+    margin-bottom: 1em;
+
+}
+
+.procura__talentos{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: .2em;
+}
+
+.procura__descricao{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+    margin-bottom: 3em;
+}
+
+.procura__imagem{
+    width: 70%;
+    margin-bottom: 2em;
+}

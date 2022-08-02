@@ -1,0 +1,50 @@
+.rodape{
+    width: 100%;
+    background-color: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 5em;
+}
+
+.rodape__titulo{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.rodape__texto{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+}
+
+.rodape__cadastro{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+}
+
+.rodape__botao{
+    padding: .5em .75em;
+    background-color: var(--vinho);
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    margin-left: .5em;
+}
+
+.rodape__input{
+    padding: .5em .5em;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid var(--cinza-claro);
+}
+
+.rodape__direitos{
+    color: #98A2B3;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 2em;
+}

@@ -1,0 +1,36 @@
+.opiniao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    background-color: rgba(195, 25, 25, 0.03);
+    margin: 3em auto;
+    padding: 4em 2em;
+}
+
+.opiniao__colaboradores{
+    color: var(--vinho);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.opiniao__comentario{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.colaborador__imagem{
+    margin-top: 2em;
+}
+
+.colaborador__nome{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.colaborador__cargo{
+    color: var(--cinza-claro);
+    margin-top: 0;
+    font-size: 14px;
+}
